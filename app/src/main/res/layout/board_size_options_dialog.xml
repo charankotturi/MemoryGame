@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="310dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    >
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rgBoardSizes"
+        android:layout_marginHorizontal="20dp"
+        >
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Easy (2 x 4)"
+            android:id="@+id/rbEasy"
+            android:checked="true"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medium (3 x 6)"
+            android:id="@+id/rbMedium"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hard (4 x 6)"
+            android:id="@+id/rbHard"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+</LinearLayout>
