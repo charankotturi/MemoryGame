@@ -5,26 +5,26 @@
     android:id="@+id/constrainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#212121"
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#212121">
+        >
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/teal_200"
+            android:background="@color/teal_700"
+            app:titleTextColor="@color/white"
             app:layout_constraintTop_toTopOf="parent"/>
 
         <LinearLayout
             android:id="@+id/llBoard"
             android:layout_width="match_parent"
             android:layout_height="66dp"
-            android:background="@color/teal_200"
+            android:background="@color/teal_700"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent">
 
@@ -34,7 +34,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                app:cardBackgroundColor="#00A0FF"
+                app:cardBackgroundColor="#212121"
                 app:cardCornerRadius="9dp">
 
                 <TextView
@@ -43,7 +43,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:text="Moves: 0"
-                    android:textColor="@color/black"
+                    android:textColor="@color/white"
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
@@ -54,7 +54,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                app:cardBackgroundColor="#00A0FF"
+                app:cardBackgroundColor="#212121"
                 app:cardCornerRadius="9dp">
 
                 <TextView

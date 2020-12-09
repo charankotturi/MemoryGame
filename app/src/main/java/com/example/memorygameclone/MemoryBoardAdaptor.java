@@ -71,7 +71,7 @@ public class MemoryBoardAdaptor extends RecyclerView.Adapter<MemoryBoardAdaptor.
                         .into(holder.imageView);
             }
         }else {
-            holder.imageView.setImageResource(R.drawable.ic_launcher_background);
+            holder.imageView.setImageResource(R.drawable.images);
         }
 
         holder.imageView.setOnClickListener(new View.OnClickListener() {

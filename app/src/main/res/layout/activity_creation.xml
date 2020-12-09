@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#212121"
     tools:context=".CreationActivity">
 
     <com.google.android.material.appbar.MaterialToolbar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@color/teal_200"
+        android:background="@color/teal_700"
+        app:titleTextColor="@color/white"
         android:id="@+id/customCreationToolBar"
         />
 
@@ -24,7 +24,6 @@
         android:layout_marginBottom="12dp"
         android:enabled="false"
         android:text="Save"
-        android:textColor="@drawable/edittext_disabled"
         app:layout_constraintBottom_toTopOf="@+id/progressBar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -36,7 +35,6 @@
         android:layout_height="45dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
-        android:background="@color/white"
         android:layout_marginBottom="8dp"
         android:paddingHorizontal="10dp"
         android:importantForAutofill="no"
